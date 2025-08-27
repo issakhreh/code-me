@@ -25,7 +25,7 @@ jobs:
       run: npm test
 
     - name: 🧹 Run lint
-      run: npm run lin
+      run: npm run lint
 
     - name: 🔐 Setup SSH
       uses: webfactory/ssh-agent@v0.8.0
